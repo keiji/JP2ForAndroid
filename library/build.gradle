@@ -4,7 +4,7 @@ plugins {
     id 'signing'
 }
 
-def versionName = "1.0.3"
+def versionName = "1.0.5"
 
 android {
     namespace = "com.gemalto.jp2"
@@ -80,7 +80,7 @@ tasks.withType(AbstractPublishToMaven) {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId 'com.gemalto.jp2'
+            groupId 'dev.keiji.jp2'
             artifactId 'jp2-android'
             version "${versionName}"
 
@@ -90,8 +90,8 @@ publishing {
 
             pom {
                 name = 'JP2ForAndroid'
-                description = 'A JPEG-2000 image encoder/decoder for Android'
-                url = 'https://github.com/gemalto/JP2ForAndroid'
+                description = 'A JPEG-2000 image encoder/decoder for Android. This library is a derivative work of the JP2 for Android library, originally developed by Gemalto s.r.o.'
+                url = 'https://github.com/keiji/JP2ForAndroid'
                 licenses {
                     license {
                         name = 'The 2-Clause BSD License'
@@ -104,11 +104,16 @@ publishing {
                         name = 'Michal Dvorak'
                         email = 'michal.dvorak@thalesgroup.com'
                     }
+                    developer {
+                        id = 'keiji'
+                        name = 'ARIYAMA Keiji'
+                        email = 'keiji.ariyama@gmail.com'
+                    }
                 }
                 scm {
-                    connection = 'https://github.com/gemalto/JP2ForAndroid.git'
-                    developerConnection = 'https://github.com/gemalto/JP2ForAndroid.git'
-                    url = 'https://github.com/gemalto/JP2ForAndroid'
+                    connection = 'https://github.com/keiji/JP2ForAndroid.git'
+                    developerConnection = 'https://github.com/keiji/JP2ForAndroid.git'
+                    url = 'https://github.com/keiji/JP2ForAndroid'
                 }
             }
         }
