@@ -1,13 +1,6 @@
 # JP2 for Android
 ---------------------------
 
-> [!IMPORTANT]
-> The project keiji/JP2ForAndroid has moved to [jp2k-decoder-android](https://github.com/keiji/jp2k-decoder-android) and this repository is now archived.
->
-> While the new project is a fresh implementation, I would like to express my sincere gratitude to the [ThalesGroup/JP2ForAndroid](https://github.com/ThalesGroup/JP2ForAndroid) project. Their work provided invaluable inspiration and guidance during the early stages of my development.
-> 
-> The project [ThalesGroup/JP2ForAndroid](https://github.com/ThalesGroup/JP2ForAndroid) is still active, and I highly recommend checking it out as well!
-
 An open-source JPEG-2000 image encoder/decoder for Android based on [OpenJPEG](http://www.openjpeg.org/) v2.5.2.
 
 ## Set up
