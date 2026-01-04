@@ -38,6 +38,7 @@ add_library(${CMAKE_PROJECT_NAME} SHARED
              src/main/cpp/openjpeg/src/lib/openjp2/pi.c
              src/main/cpp/openjpeg/src/lib/openjp2/ppix_manager.c
              src/main/cpp/openjpeg/src/lib/openjp2/sparse_array.c
+             src/main/cpp/openjpeg/src/lib/openjp2/ht_dec.c
              src/main/cpp/openjpeg/src/lib/openjp2/t1.c
              src/main/cpp/openjpeg/src/lib/openjp2/t2.c
              src/main/cpp/openjpeg/src/lib/openjp2/tcd.c
